@@ -1,0 +1,18 @@
+columns: 
+  - item_id
+  - user_id
+  - rating
+  - timestamp
+  - model_attr
+  - category
+  - brand
+  - year
+  - user_attr
+  - split
+dataset_name: Electronics
+file_name: /content/drive/MyDrive/Kaggle/Capgemini/electronics
+file_type: csv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+table_name: Electronics_Table
