@@ -1,0 +1,20 @@
+columns: 
+  - item_id
+  - user_id
+  - rating
+  - timestamp
+  - size
+  - fit
+  - user_attr
+  - model_attr
+  - category
+  - brand
+  - year
+  - split
+dataset_name: ModCloth
+file_name: /content/drive/MyDrive/Kaggle/Capgemini/modcloth
+file_type: csv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+table_name: ModCloth_Table
